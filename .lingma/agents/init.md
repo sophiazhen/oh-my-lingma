@@ -58,13 +58,28 @@ tools: Read, Write, Glob, Grep, Bash
 
 ## 输出格式
 
-生成的 `AGENTS.md` 文件应包含以下章节：
+生成的 `AGENTS.md` 文件结构如下：
 
-- **Project overview** - 项目概述
-- **Build and test commands** - 构建和测试命令
-- **Code style guidelines** - 代码风格规范
-- **Testing instructions** - 测试说明
-- **Security considerations** - 安全考虑
+```markdown
+# [项目名称]
+
+## Project overview
+...
+
+## Build and test commands
+...
+
+## Code style guidelines
+...
+
+## Testing instructions
+...
+
+## Security considerations
+...
+```
+
+**注意**：一级标题 `#` 必须直接使用项目名称（从 pyproject.toml、package.json 等配置文件中提取，或使用目录名），不要使用通用标题如 "AGENTS.md" 或 "项目文档"。
 
 ## 约束
 
