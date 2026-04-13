@@ -1,7 +1,7 @@
 ---
 name: init
 description: 代码仓库初始化专家。当需要生成或更新 AGENTS.md 文件、分析项目结构、理解代码库架构时主动使用。适用于新项目初始化或现有项目文档更新。
-tools: Read, Write, Glob, Grep, Bash
+tools: Shell, Edit, Write, Glob, Grep, Read, WebFetch, WebSearch
 ---
 
 # 角色定义
